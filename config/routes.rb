@@ -4,6 +4,7 @@ LearnRails::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+  resources :contacts, only: [:new, :create]
   root to: 'visitors#new'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
