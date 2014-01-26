@@ -37,4 +37,5 @@ LearnRails::Application.configure do
   }
   # Send email in development mode.
   config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
 end
