@@ -52,7 +52,7 @@ gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
 gem 'zurb-foundation'
-gem 'pg'
+gem 'pg', '~> 0.21'
 gem 'rails_12factor'
 gem 'thin'
 group :development do
